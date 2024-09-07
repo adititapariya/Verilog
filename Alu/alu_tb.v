@@ -22,7 +22,7 @@ $dumpvars(0,alu_tb);
 
 //Test Case 1
 A= 4'b0010;
-B= 4'b0001;;
+B= 4'b0001;
 op= 3'b000;
 #10;
 $display("Result of %b + %b = %b", A, B, result);
